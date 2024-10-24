@@ -1,101 +1,100 @@
-INSERT INTO Highscores (user_name, score) VALUES 
-('User1', 732),
-('User2', 245),
-('User3', 678),
-('User4', 890),
-('User5', 123),
-('User6', 456),
-('User7', 890),
-('User8', 347),
-('User9', 590),
-('User10', 212),
-('User11', 789),
-('User12', 650),
-('User13', 432),
-('User14', 123),
-('User15', 999),
-('User16', 567),
-('User17', 234),
-('User18', 888),
-('User19', 321),
-('User20', 459),
-('User21', 785),
-('User22', 672),
-('User23', 823),
-('User24', 432),
-('User25', 125),
-('User26', 650),
-('User27', 750),
-('User28', 890),
-('User29', 300),
-('User30', 275),
-('User31', 400),
-('User32', 950),
-('User33', 800),
-('User34', 214),
-('User35', 635),
-('User36', 788),
-('User37', 580),
-('User38', 920),
-('User39', 735),
-('User40', 512),
-('User41', 256),
-('User42', 900),
-('User43', 410),
-('User44', 670),
-('User45', 330),
-('User46', 130),
-('User47', 110),
-('User48', 410),
-('User49', 590),
-('User50', 200),
-('User51', 720),
-('User52', 468),
-('User53', 819),
-('User54', 278),
-('User55', 340),
-('User56', 490),
-('User57', 690),
-('User58', 830),
-('User59', 415),
-('User60', 265),
-('User61', 872),
-('User62', 145),
-('User63', 990),
-('User64', 240),
-('User65', 560),
-('User66', 374),
-('User67', 590),
-('User68', 480),
-('User69', 711),
-('User70', 843),
-('User71', 399),
-('User72', 599),
-('User73', 740),
-('User74', 210),
-('User75', 880),
-('User76', 390),
-('User77', 230),
-('User78', 640),
-('User79', 823),
-('User80', 512),
-('User81', 365),
-('User82', 987),
-('User83', 432),
-('User84', 745),
-('User85', 860),
-('User86', 290),
-('User87', 970),
-('User88', 730),
-('User89', 660),
-('User90', 455),
-('User91', 538),
-('User92', 321),
-('User93', 289),
-('User94', 748),
-('User95', 150),
-('User96', 275),
-('User97', 465),
-('User98', 375),
-('User99', 880),
-('User100', 420);
+INSERT INTO Highscores (user_name, score) VALUES ('User1', 732);
+INSERT INTO Highscores (user_name, score) VALUES ('User2', 245);
+INSERT INTO Highscores (user_name, score) VALUES ('User3', 678);
+INSERT INTO Highscores (user_name, score) VALUES ('User4', 890);
+INSERT INTO Highscores (user_name, score) VALUES ('User5', 123);
+INSERT INTO Highscores (user_name, score) VALUES ('User6', 456);
+INSERT INTO Highscores (user_name, score) VALUES ('User7', 890);
+INSERT INTO Highscores (user_name, score) VALUES ('User8', 347);
+INSERT INTO Highscores (user_name, score) VALUES ('User9', 590);
+INSERT INTO Highscores (user_name, score) VALUES ('User10', 212);
+INSERT INTO Highscores (user_name, score) VALUES ('User11', 789);
+INSERT INTO Highscores (user_name, score) VALUES ('User12', 650);
+INSERT INTO Highscores (user_name, score) VALUES ('User13', 432);
+INSERT INTO Highscores (user_name, score) VALUES ('User14', 123);
+INSERT INTO Highscores (user_name, score) VALUES ('User15', 999);
+INSERT INTO Highscores (user_name, score) VALUES ('User16', 567);
+INSERT INTO Highscores (user_name, score) VALUES ('User17', 234);
+INSERT INTO Highscores (user_name, score) VALUES ('User18', 888);
+INSERT INTO Highscores (user_name, score) VALUES ('User19', 321);
+INSERT INTO Highscores (user_name, score) VALUES ('User20', 459);
+INSERT INTO Highscores (user_name, score) VALUES ('User21', 785);
+INSERT INTO Highscores (user_name, score) VALUES ('User22', 672);
+INSERT INTO Highscores (user_name, score) VALUES ('User23', 823);
+INSERT INTO Highscores (user_name, score) VALUES ('User24', 432);
+INSERT INTO Highscores (user_name, score) VALUES ('User25', 125);
+INSERT INTO Highscores (user_name, score) VALUES ('User26', 650);
+INSERT INTO Highscores (user_name, score) VALUES ('User27', 750);
+INSERT INTO Highscores (user_name, score) VALUES ('User28', 890);
+INSERT INTO Highscores (user_name, score) VALUES ('User29', 300);
+INSERT INTO Highscores (user_name, score) VALUES ('User30', 275);
+INSERT INTO Highscores (user_name, score) VALUES ('User31', 400);
+INSERT INTO Highscores (user_name, score) VALUES ('User32', 950);
+INSERT INTO Highscores (user_name, score) VALUES ('User33', 800);
+INSERT INTO Highscores (user_name, score) VALUES ('User34', 214);
+INSERT INTO Highscores (user_name, score) VALUES ('User35', 635);
+INSERT INTO Highscores (user_name, score) VALUES ('User36', 788);
+INSERT INTO Highscores (user_name, score) VALUES ('User37', 580);
+INSERT INTO Highscores (user_name, score) VALUES ('User38', 920);
+INSERT INTO Highscores (user_name, score) VALUES ('User39', 735);
+INSERT INTO Highscores (user_name, score) VALUES ('User40', 512);
+INSERT INTO Highscores (user_name, score) VALUES ('User41', 256);
+INSERT INTO Highscores (user_name, score) VALUES ('User42', 900);
+INSERT INTO Highscores (user_name, score) VALUES ('User43', 410);
+INSERT INTO Highscores (user_name, score) VALUES ('User44', 670);
+INSERT INTO Highscores (user_name, score) VALUES ('User45', 330);
+INSERT INTO Highscores (user_name, score) VALUES ('User46', 130);
+INSERT INTO Highscores (user_name, score) VALUES ('User47', 110);
+INSERT INTO Highscores (user_name, score) VALUES ('User48', 410);
+INSERT INTO Highscores (user_name, score) VALUES ('User49', 590);
+INSERT INTO Highscores (user_name, score) VALUES ('User50', 200);
+INSERT INTO Highscores (user_name, score) VALUES ('User51', 720);
+INSERT INTO Highscores (user_name, score) VALUES ('User52', 468);
+INSERT INTO Highscores (user_name, score) VALUES ('User53', 819);
+INSERT INTO Highscores (user_name, score) VALUES ('User54', 278);
+INSERT INTO Highscores (user_name, score) VALUES ('User55', 340);
+INSERT INTO Highscores (user_name, score) VALUES ('User56', 490);
+INSERT INTO Highscores (user_name, score) VALUES ('User57', 690);
+INSERT INTO Highscores (user_name, score) VALUES ('User58', 830);
+INSERT INTO Highscores (user_name, score) VALUES ('User59', 415);
+INSERT INTO Highscores (user_name, score) VALUES ('User60', 265);
+INSERT INTO Highscores (user_name, score) VALUES ('User61', 872);
+INSERT INTO Highscores (user_name, score) VALUES ('User62', 145);
+INSERT INTO Highscores (user_name, score) VALUES ('User63', 990);
+INSERT INTO Highscores (user_name, score) VALUES ('User64', 240);
+INSERT INTO Highscores (user_name, score) VALUES ('User65', 560);
+INSERT INTO Highscores (user_name, score) VALUES ('User66', 374);
+INSERT INTO Highscores (user_name, score) VALUES ('User67', 590);
+INSERT INTO Highscores (user_name, score) VALUES ('User68', 480);
+INSERT INTO Highscores (user_name, score) VALUES ('User69', 711);
+INSERT INTO Highscores (user_name, score) VALUES ('User70', 843);
+INSERT INTO Highscores (user_name, score) VALUES ('User71', 399);
+INSERT INTO Highscores (user_name, score) VALUES ('User72', 599);
+INSERT INTO Highscores (user_name, score) VALUES ('User73', 740);
+INSERT INTO Highscores (user_name, score) VALUES ('User74', 210);
+INSERT INTO Highscores (user_name, score) VALUES ('User75', 880);
+INSERT INTO Highscores (user_name, score) VALUES ('User76', 390);
+INSERT INTO Highscores (user_name, score) VALUES ('User77', 230);
+INSERT INTO Highscores (user_name, score) VALUES ('User78', 640);
+INSERT INTO Highscores (user_name, score) VALUES ('User79', 823);
+INSERT INTO Highscores (user_name, score) VALUES ('User80', 512);
+INSERT INTO Highscores (user_name, score) VALUES ('User81', 365);
+INSERT INTO Highscores (user_name, score) VALUES ('User82', 987);
+INSERT INTO Highscores (user_name, score) VALUES ('User83', 432);
+INSERT INTO Highscores (user_name, score) VALUES ('User84', 745);
+INSERT INTO Highscores (user_name, score) VALUES ('User85', 860);
+INSERT INTO Highscores (user_name, score) VALUES ('User86', 290);
+INSERT INTO Highscores (user_name, score) VALUES ('User87', 970);
+INSERT INTO Highscores (user_name, score) VALUES ('User88', 730);
+INSERT INTO Highscores (user_name, score) VALUES ('User89', 660);
+INSERT INTO Highscores (user_name, score) VALUES ('User90', 455);
+INSERT INTO Highscores (user_name, score) VALUES ('User91', 538);
+INSERT INTO Highscores (user_name, score) VALUES ('User92', 321);
+INSERT INTO Highscores (user_name, score) VALUES ('User93', 289);
+INSERT INTO Highscores (user_name, score) VALUES ('User94', 748);
+INSERT INTO Highscores (user_name, score) VALUES ('User95', 150);
+INSERT INTO Highscores (user_name, score) VALUES ('User96', 275);
+INSERT INTO Highscores (user_name, score) VALUES ('User97', 465);
+INSERT INTO Highscores (user_name, score) VALUES ('User98', 375);
+INSERT INTO Highscores (user_name, score) VALUES ('User99', 880);
+INSERT INTO Highscores (user_name, score) VALUES ('User100', 420);
