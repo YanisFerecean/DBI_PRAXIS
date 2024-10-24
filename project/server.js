@@ -3,22 +3,20 @@ const oracledb = require('oracledb');
 const app = express();
 const port = 3000;
 
-app.use(express.static('public')); // Serve static files from public directory
+app.use(express.static('public'));
 
-// Oracle DB connection configuration
 const dbConfig = {
-    user: 'your_username',
-    password: 'your_password',
-    connectString: 'your_connect_string' // e.g., 'localhost/XE'
+    user: 'username',
+    password: 'password',
+    connectString: 'connect_string' 
 };
 
-// Function to fetch highscores
 app.get('/highscores', async (req, res) => {
     let connection;
 
     const topN = parseInt(req.query.topN) || 10;
     const page = parseInt(req.query.page) || 1;
-    const offset = (page - 1) * 10; // Calculate offset
+    const offset = (page - 1) * 10;
 
     try {
         connection = await oracledb.getConnection(dbConfig);
@@ -26,7 +24,7 @@ app.get('/highscores', async (req, res) => {
             `SELECT user_name, score
              FROM Highscores
              ORDER BY score DESC
-             OFFSET :offset ROWS FETCH NEXT :limit ROWS ONLY`,
+             OFFSET :offset ROWS FETCH NEXT :limit ROWS ONLY`, //TODO: query for pagination
             {
                 offset: offset,
                 limit: topN
@@ -58,7 +56,6 @@ app.get('/highscores', async (req, res) => {
     }
 });
 
-// Start the server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
