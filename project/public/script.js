@@ -3,7 +3,7 @@ const pageSize = 10;
 
 async function fetchHighscores() {
     const topN = document.getElementById('topN').value || 10;
-    const response = await fetch(`/highscores?topN=${topN}&page=${currentPage}`);
+    const response = await fetch(`http://localhost:3000/highscores?topN=${topN}&page=${currentPage}`);
     const data = await response.json();
 
     const tbody = document.getElementById('highscoreTableBody');

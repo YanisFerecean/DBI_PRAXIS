@@ -1,14 +1,16 @@
 const express = require('express');
 const oracledb = require('oracledb');
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
 app.use(express.static('public'));
+app.use(cors());
 
 const dbConfig = {
-    user: 'username',
-    password: 'password',
-    connectString: 'connect_string' 
+    user: 'dbi',
+    password: 'dbi',
+    connectString: 'localhost:15210/XEPDB1' 
 };
 
 app.get('/highscores', async (req, res) => {
@@ -21,7 +23,10 @@ app.get('/highscores', async (req, res) => {
     try {
         connection = await oracledb.getConnection(dbConfig);
         const result = await connection.execute(
-            ``, //TODO: query for pagination
+            `SELECT user_name, score
+             FROM Highscores
+             ORDER BY score DESC
+             OFFSET :offset ROWS FETCH NEXT :limit ROWS ONLY`, //TODO: query for pagination
             {
                 offset: offset,
                 limit: topN
