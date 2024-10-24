@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highscores</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        .pagination { text-align: center; margin: 20px; }
+        .pagination button { margin: 0 5px; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Top Highscores</h1>
+    <div style="text-align:center;">
+        <label for="topN">Show Top N:</label>
+        <input type="number" id="topN" value="10" min="1" max="100">
+        <button onclick="fetchHighscores()">Fetch</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody id="highscoreTableBody">
+            <!-- Highscores will be dynamically populated here -->
+        </tbody>
+    </table>
+    <div class="pagination" id="pagination">
+        <!-- Pagination will be dynamically populated here -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
