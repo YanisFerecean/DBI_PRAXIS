@@ -4,5 +4,7 @@
 npm init -y
 ### 2. Install Dependencies
 npm install express oracledb
+
+npm install express cors
 ### 3. Run the Apllication
 node server.js
