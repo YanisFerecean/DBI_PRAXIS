@@ -6,7 +6,6 @@ async function fetchHighscores() {
     const response = await fetch(`/highscores?topN=${topN}&page=${currentPage}`);
     const data = await response.json();
 
-    // Populate the table
     const tbody = document.getElementById('highscoreTableBody');
     tbody.innerHTML = '';
     data.scores.forEach(score => {
