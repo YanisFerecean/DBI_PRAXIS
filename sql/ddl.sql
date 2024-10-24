@@ -1,5 +1,4 @@
 CREATE TABLE Highscores (
-    id SERIAL PRIMARY KEY,
     user_name VARCHAR(255) NOT NULL,
     score INT NOT NULL
 );

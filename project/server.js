@@ -21,10 +21,7 @@ app.get('/highscores', async (req, res) => {
     try {
         connection = await oracledb.getConnection(dbConfig);
         const result = await connection.execute(
-            `SELECT user_name, score
-             FROM Highscores
-             ORDER BY score DESC
-             OFFSET :offset ROWS FETCH NEXT :limit ROWS ONLY`, //TODO: query for pagination
+            ``, //TODO: query for pagination
             {
                 offset: offset,
                 limit: topN
